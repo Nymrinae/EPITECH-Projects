@@ -7,7 +7,7 @@
 | --------------------------------  |--------------                                                                      |
 | [201yams](./201yams)              | Compute odds to all differents possibilities in Yam's (Yahtzee)                    |
 | [202unsold](./202unsold)          | Compute variances of sold items                                                    |
-| [203hotline](./203hotline)        | Compare computing speeds between Binomial and Poisson law                          |
+| [203hotline](./203hotline)        | Compare computing time between Binomial law and Poisson law                      |
 | [204ducks](./204ducks)            | Compute datas depending of density probability function                            |
 | [205IQ](./205IQ)                  | Compute datas depending of density probability function between two integers       |
 | [206neutrinos](./206neutrinos)    | Compute central tendency and dispersion measures for a data set evolving with time |

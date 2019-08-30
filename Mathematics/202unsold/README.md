@@ -1,5 +1,5 @@
 # 202unsold
-Compute the probabilty to sell a \$$x$ jacket and \$$y$ trousers together and print:
+Compute the probabilty to sell a $x jacket and $y trousers together and print:
 - An array summing up the joint law (X, Y) and the marginal laws of X and Y
 - An array summing up the law of Z
 - Expected values and variances of X, Y and Z.

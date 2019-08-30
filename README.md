@@ -13,7 +13,7 @@
     - Epitech Cpp Pool, 4 weeks of intense programming to learn Object-Oriented developement.
 - [CppProjects](./CPP_Projects): **Advanced C++ Language**
     - A collection of projects written in C++.
-- [Maths](./Maths): **Statistics and Probabilities**
+- [Mathematics](./Mathematics): **Statistics and Probabilities**
     - A collection of programs written in Python.
     
 <p align="center"> Check the README at the root of each folder to get more details about it. </p> 
