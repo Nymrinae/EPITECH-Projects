@@ -1,4 +1,4 @@
-import firebase, { auth, GoogleProvider } from '@/plugins/firebase'
+import firebase, { auth, GoogleProvider, FacebookProvider } from '@/plugins/firebase'
 import firebaseAuthErrors from '@/helpers/firebaseAuthErrors'
 
 const state = () => ({
@@ -38,7 +38,7 @@ const actions = {
     }
   },
   async signInWithFacebook() {
-    alert('Unimplemented Facebook Login')
+    return auth.signInWithRedirect(FacebookProvider)
   },
   async signInWithGoogle() {
     return auth.signInWithRedirect(GoogleProvider)

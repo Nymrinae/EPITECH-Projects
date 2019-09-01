@@ -23,27 +23,23 @@ export default {
     },
   methods: {
     ...mapActions({
-      facebookSignIn: 'fireAuth/signInWithFacebook',
-      googleSignIn: 'fireAuth/signInWithGoogle',
-      twitterSignIn: 'fireAuth/signInWithTwitter'
+      facebook: 'fireAuth/signInWithFacebook',
+      google: 'fireAuth/signInWithGoogle',
+      twitter: 'fireAuth/signInWithTwitter'
     }),
     checkNetworkName() {
       switch (this.networkName) {
         case 'facebook':
-          this.facebookSignIn();
+          this.facebook();
           break;
         case 'google':
-          this.googleSignIn();
+          this.google();
           break;
         case 'twitter':
-          this.twitterSignIn();
+          this.twitter();
           break;
       }
-    },
-    facebookSignIn() {
-      alert('bite');
     }
-
   }
 }
 </script>
