@@ -38,10 +38,10 @@ const actions = {
     }
   },
   async signInWithFacebook() {
-    return auth.signInWithRedirect(FacebookProvider)
+    return auth.signInWithPopup(FacebookProvider)
   },
   async signInWithGoogle() {
-    return auth.signInWithRedirect(GoogleProvider)
+    return auth.signInWithPopup(GoogleProvider)
   },
   async signInWithTwitter() {
     alert('Unimplemented Twitter Login')

@@ -1,4 +1,5 @@
 const colors = require('vuetify/es5/util/colors').default
+require('dotenv').config()
 
 module.exports = {
   mode: 'spa',
@@ -16,17 +17,6 @@ module.exports = {
     link: [
       { rel: 'icon', type: 'image/x-icon', href: '/favicon.ico' }
     ]
-  },
-  env: {
-    firebase: {
-      apiKey: 'AIzaSyANb9zCzyj-4kBkHMG1FBDJihYHWzmK0JY',
-      authDomain: 'epitechdashboard-433c7.firebaseapp.com',
-      databaseURL: 'https://epitechdashboard-433c7.firebaseio.com',
-      projectId: 'epitechdashboard-433c7',
-      storageBucket: '',
-      messagingSenderId: '672001407807',
-      appId: '1:672001407807:web:7534dd3ce0a6442f'
-    }
   },
   /*
   ** Customize the progress-bar color
@@ -47,7 +37,7 @@ module.exports = {
   ** Nuxt.js dev-modules
   */
   buildModules: [
-    '@nuxtjs/vuetify',
+    '@nuxtjs/vuetify'
   ],
   /*
   ** Nuxt.js modules
@@ -55,6 +45,7 @@ module.exports = {
   modules: [
     // Doc: https://axios.nuxtjs.org/usage
     '@nuxtjs/axios',
+    '@nuxtjs/dotenv'
   ],
   /*
   ** Axios module configuration
