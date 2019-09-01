@@ -1,4 +1,4 @@
-import firebase, { auth, GoogleProvider, FacebookProvider } from '@/plugins/firebase'
+import { auth, GoogleProvider, FacebookProvider } from '@/plugins/firebase'
 import firebaseAuthErrors from '@/helpers/firebaseAuthErrors'
 
 const state = () => ({
@@ -21,27 +21,26 @@ const actions = {
   async createAccount({ commit }, user) {
     try {
       let newUser = await auth.createUserWithEmailAndPassword(user.email, user.password)
-      commit('setUser', newUser.user.uid)
+      commit('setUser', newUser)
       alert('Account successfully created !')
     } catch (e) {
       firebaseAuthErrors(e.code)
     }
-
   },
-  async basicLogin({ commit }, user) {
+  async signInWithEmailAndPassword({ commit }, user) {
     try {
       let connectedUser = await auth.signInWithEmailAndPassword(user.email, user.password)
-      commit('setUser', newUser.uid)
+      commit('setUser', connectedUser)
       alert('Logged in!') // redirecting to /home or something
     } catch (e) {
-      firebaseAuthErrors (e.code)
+      firebaseAuthErrors(e.code)
     }
   },
   async signInWithFacebook() {
-    return auth.signInWithPopup(FacebookProvider)
+    return auth.signInWithRedirect(FacebookProvider)
   },
   async signInWithGoogle() {
-    return auth.signInWithPopup(GoogleProvider)
+    return auth.signInWithRedirect(GoogleProvider)
   },
   async signInWithTwitter() {
     alert('Unimplemented Twitter Login')

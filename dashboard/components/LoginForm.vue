@@ -10,7 +10,7 @@
       lazy-validation 
     >
       <p class="title"> or </p>
-      <v-text-field v-model="name" prepend-icon="mdi-account" label="Username" solo required />
+      <v-text-field v-model="email" prepend-icon="mdi-account" label="Email" solo required />
       <v-text-field 
         v-model="password"
         :type="isPasswordVisible ? 'text' : 'password'"
@@ -21,7 +21,7 @@
         solo required
         />
       <v-card-actions class="justify-center">
-        <v-btn block :disabled="!valid" color="success" class="button" @click="emailLogin"> 
+        <v-btn block :disabled="!valid" color="success" class="button" @click="validate"> 
           Log In
           <v-icon class="icon" dark>mdi-login</v-icon>
         </v-btn>
@@ -39,7 +39,6 @@ export default {
     return {
       isPasswordVisible: false,
       valid: true,
-      name: '',
       email: '',
       password: '',
     }
@@ -49,11 +48,16 @@ export default {
   },
   methods: {
     ...mapActions({
-      emailLogin: ''
+      emailLogin: 'fireAuth/signInWithEmailAndPassword'
     }),
-    async emailLogin() {
+    async validate() {
       if (this.$refs.form.validate()) {
-        this.emailLogin(this.email, this.password);
+        let user = {
+          email: this.email,
+          password: this.password
+        }
+        this.emailLogin(user)
+        console.log(this.$store.state.fireAuth.user)
         this.email = ''
         this.password = ''
       }
