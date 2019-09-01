@@ -14,7 +14,6 @@
                  Sign Up
               </v-tab>
               <v-tab-item>
-                  <!-- <SocialAuthentication header="Log In with" /> -->
                   <LoginForm />
               </v-tab-item>
               <v-tab-item>

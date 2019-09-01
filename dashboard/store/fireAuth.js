@@ -1,4 +1,5 @@
 import firebase, { auth, GoogleProvider } from '@/plugins/firebase'
+import firebaseAuthErrors from '@/helpers/firebaseAuthErrors'
 
 const state = () => ({
   user: null
@@ -18,22 +19,23 @@ const mutations = {
 
 const actions = {
   async createAccount({ commit }, user) {
-    let newUser = await auth.createUserWithEmailAndPassword(user.email, user.password)
-
-    if (newUser) {
+    try {
+      let newUser = await auth.createUserWithEmailAndPassword(user.email, user.password)
       commit('setUser', newUser.user.uid)
-      alert('Account successfully created !');
+      alert('Account successfully created !')
+    } catch (e) {
+      firebaseAuthErrors(e.code)
     }
-    else
-      alert('Cannot create your account')
+
   },
   async basicLogin({ commit }, user) {
-    let connectedUser = await auth.signInWithEmailAndPassword(user.email, user.password)
-
-    if (connectedUser)
+    try {
+      let connectedUser = await auth.signInWithEmailAndPassword(user.email, user.password)
       commit('setUser', newUser.uid)
-    else
-      alert('Cannot log in into your account')
+      alert('Logged in!') // redirecting to /home or something
+    } catch (e) {
+      firebaseAuthErrors (e.code)
+    }
   },
   async signInWithFacebook() {
     alert('Unimplemented Facebook Login')
