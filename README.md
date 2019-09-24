@@ -15,4 +15,4 @@ It can be possible that some projects aren't working at 100% or not even finishe
 | [CppProjects](./CPP_Projects) | A collection of projects written in C++.|
 | [Mathematics](./Mathematics) | A collection of programs written in Python. |
 
-<p align="center"> Check the README at the root of each folder to get more details about it. </p> 
+Check the README at the root of each folder to get more details about it.
