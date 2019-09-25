@@ -16,3 +16,6 @@
 | [10](./CPool_Day10_2018)  | Makefile | __do_op__ : Add, substract, multiply, divide, modulo two numbers <br> __Makefile__ : Our first Makefile |
 | [11](./CPool_Day11_2018)  | Linked Lists | __my_params_to_list__ : Add main arguments parameters to a linked list <br> __my_list_size__ : Returns the length of the linked list |
 | [12](./CPool_Day12_2018)  | File Descriptors | __cat__ : Reproduce the behaviour of cat bash command |
+| [Rush1](./CPool_rush1_2018)  | / | / |
+| [Rush2](./CPool_rush2_2018)  | / | / |
+| [Rush3](./CPool_rush3_2018)  | FinalStumper | / |
