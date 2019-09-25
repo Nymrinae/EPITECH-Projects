@@ -9,7 +9,7 @@ It can be possible that some projects aren't working at 100% or not even finishe
 
 | Project Folder                          | Description |
 | --------------------------------  |-------------- |
-| [Assembly](./ASM) | Rewriting some standard C library functions in Assemnly (NASM based) |
+| [Assembly](./ASM) | Rewriting some standard C library functions in Assembly (NASM based) |
 | [CPool](./C_Pool)              | EPITECH C Pool <br >6 weeks of intense programming to learn Unix/C basics.|
 | [CppPool](./CPP_Pool) | EPITECH Cpp Pool <br> 4 weeks of intense programming to learn Object-Oriented developement. |
 | [Mathematics](./Mathematics) | A collection of programs written in Python. |
