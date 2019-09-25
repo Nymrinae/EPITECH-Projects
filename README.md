@@ -9,10 +9,8 @@ It can be possible that some projects aren't working at 100% or not even finishe
 
 | Project Folder                          | Description |
 | --------------------------------  |-------------- |
-| [CPool](./C_Pool)              | Epitech C Pool <br >6 weeks of intense programming to learn Unix/C basics.|
-| [CProjects](./C_Projects)          | A collection of projects written in C. |
-| [CppPool](./CPP_Pool) | Epitech Cpp Pool <br> 4 weeks of intense programming to learn Object-Oriented developement. |
-| [CppProjects](./CPP_Projects) | A collection of projects written in C++.|
+| [CPool](./C_Pool)              | EPITECH C Pool <br >6 weeks of intense programming to learn Unix/C basics.|
+| [CppPool](./CPP_Pool) | EPITECH Cpp Pool <br> 4 weeks of intense programming to learn Object-Oriented developement. |
 | [Mathematics](./Mathematics) | A collection of programs written in Python. |
 
 Check the README at the root of each folder to get more details about it.
