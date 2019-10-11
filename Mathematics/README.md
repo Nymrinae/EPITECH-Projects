@@ -14,3 +14,13 @@
 | [207demography](./207demography)  | /                                                                                  |
 | [208dowels](./208dowels)          | Compute a binomial fit and validate it with χ² test                                |
 | [209poll](./209poll)              | Compute confidence intervals for polls                                             |
+| [301dannon]()              | |
+| [302separation]()              | |
+| [303make]()              | |
+| [304pacman]()              | |
+| [305construction]()              | |
+| [306radiator]()              | |
+| [307multigrains]()              | |
+| [308reedpipes]()              | |
+| [303pollution]()              | |
+
