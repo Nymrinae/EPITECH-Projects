@@ -1,0 +1,10 @@
+#!/usr/bin/env python3
+
+import sys
+from functions import *
+from errors import *
+
+args = checkError()
+content, files = parseFile(args[0])
+array = buildMatrice(content, files)
+

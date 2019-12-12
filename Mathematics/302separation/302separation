@@ -1,0 +1,17 @@
+#!/usr/bin/env python3
+
+import sys
+from errors     import *
+from Person     import *
+from print      import *
+from floydAlgo  import *
+
+args = checkError()
+content = parseFile(sys.argv[1])
+persons = createPersons(content)
+finalMatrix = createFinalMatrix(args, persons)
+
+if (len(args) == 1):
+    withMaxConnections(args[0], finalMatrix)
+else:
+    withFriends(args, persons, finalMatrix)
