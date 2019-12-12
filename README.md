@@ -13,7 +13,7 @@ It can be possible that some projects aren't working at 100% or not even finishe
 | [Assembly](./ASM) | 2nd | ASM | Rewriting some standard C library functions in Assembly (NASM based) |
 | [Babel]() | 3rd | C++ | Build a S.I.P application (VOIP based) such as Skype
 | [CPool](./C_Pool) | 1st | C | EPITECH C Pool <br> 6 weeks of intense programming to learn Unix/C basics. |
-| [C Projects]() | 1st/2nd | C | Collection of small C Projects
+| [C_Projects](./C_Projects) | 1st/2nd | C | Collection of small C Projects
 | [CppPool](./CPP_Pool) | 2nd | C++ | EPITECH Cpp Pool <br> 4 weeks of intense programming to learn Object-Oriented developement. |
 | [Dashboard](./Dashboard) | 3rd | Vue | Dashboard 
 | [Epicture]() | 3rd | React Native | Image Browsing Mobile application using Imgur API
