@@ -5,14 +5,14 @@ A program that compute chances that a duck come back after t minutes by the foll
     <img src="https://cdn.discordapp.com/attachments/452262356823834625/617123640856805388/unknown.png" alt="Logo" width="500" height="100"/>
 </p>
 
-**Usage** <br>
+### Usage
 ```bash
 ./204ducks a
 
     a: constant between 0 and 2.5
 ```
 
-**Output** <br>
+### Output
 ```bash
 ./204ducks 1.6
 Average return time: 1m 21s

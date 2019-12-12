@@ -1,11 +1,11 @@
 # 206neutrinos
 
-**Usage** <br>
+### Usage
 ```bash
 ./206neutrinos
 ```
 
-**Output** <br>
+### Output
 ```bash
 
 ```

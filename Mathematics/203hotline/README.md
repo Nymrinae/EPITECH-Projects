@@ -1,7 +1,7 @@
 # 203hotline
 A program that compares computation time between Binomial law and Poisson law.
 
-**Usage** <br>
+### Usage
 ```bash
 ./203hotline n k (d)
 
@@ -10,7 +10,7 @@ A program that compares computation time between Binomial law and Poisson law.
     d: average duration of calls (in seconds)
 ```
 
-**Output** <br>
+### Output
 ```bash
 ./203hotline 100 18
 18-combination of a 100 set:

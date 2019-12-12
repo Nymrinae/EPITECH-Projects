@@ -9,18 +9,18 @@
 | [202unsold](./202unsold)          | Compute variances of sold items                                                    |
 | [203hotline](./203hotline)        | Compare computing time between Binomial law and Poisson law                        |
 | [204ducks](./204ducks)            | Compute datas depending of density probability function                            |
-| [205IQ](./205IQ)                  | Compute datas depending of density probability function between two integers       |
+| [205IQ](./205IQ)                  | Compute dKatas depending of density probability function between two integers       |
 | [206neutrinos](./206neutrinos)    | Compute central tendency and dispersion measures for a data set evolving with time |
 | [207demography](./207demography)  | /                                                                                  |
 | [208dowels](./208dowels)          | Compute a binomial fit and validate it with χ² test                                |
 | [209poll](./209poll)              | Compute confidence intervals for polls                                             |
-| [301dannon]()              | |
-| [302separation]()              | |
-| [303make]()              | |
-| [304pacman]()              | |
-| [305construction]()              | |
-| [306radiator]()              | |
-| [307multigrains]()              | |
-| [308reedpipes]()              | |
-| [303pollution]()              | |
+| [301dannon](./301dannon)          | Simple sorting algorithms (bubble sort, quicksort, merge sort, selection sort, insertion sort)     |
+| [302separation](./302separation)  | Application of Floyd-Warshall algorithm |
+| [303make](./303make)              | Displays an adjacency matrix of a Makefile |
+| [304pacman]()                     | / |
+| [305construction]()               | / |
+| [306radiator]()                   | |
+| [307multigrains]()                | |
+| [308reedpipes]()                  | |
+| [303pollution]()                  | |
 

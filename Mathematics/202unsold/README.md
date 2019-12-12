@@ -4,15 +4,15 @@ Compute the probabilty to sell a $x jacket and $y trousers together and print:
 - An array summing up the law of Z
 - Expected values and variances of X, Y and Z.
 
-**Usage** <br>
+### Usage
 ```bash
 ./202unsold a b
-    
+
     a: constant computed from the past results
     b: constant computed from the past results
 ```
 
-**Output** <br>
+### Output
 ```bash
 ------------------------------------------------------
         X=10    X=20    X=30    X=40    X=50    Y law

@@ -1,11 +1,11 @@
 # 208dowels
 
-**Usage** <br>
+### Usage
 ```bash
 ./208dowels
 ```
 
-**Output** <br>
+### Output
 ```bash
 
 ```

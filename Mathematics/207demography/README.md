@@ -1,11 +1,11 @@
 # 207demography
 
-**Usage** <br>
+### Usage
 ```bash
 ./207demography
 ```
 
-**Output** <br>
+### Output
 ```bash
 
 ```

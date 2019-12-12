@@ -1,11 +1,11 @@
 # 209poll
 
-**Usage** <br>
+### Usage
 ```bash
 ./209poll
 ```
 
-**Output** <br>
+### Output
 ```bash
 
 ```

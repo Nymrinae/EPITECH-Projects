@@ -1,11 +1,11 @@
 # 205IQ
 
-**Usage** <br>
+### Usage
 ```bash
 ./205IQ
 ```
 
-**Output** <br>
+### Output
 ```bash
 
 ```

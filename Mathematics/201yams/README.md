@@ -2,7 +2,7 @@
 
 A program that compute odds to get expected combination on Yam's game. (Yahtzee)
 
-**Usage** <br>
+### Usage
 ```bash
 ./201yams d1 d2 d3 d4 d5 c
 
@@ -14,7 +14,7 @@ A program that compute odds to get expected combination on Yam's game. (Yahtzee)
     c: expected combination
 ```
 
-**Output** <br>
+### Output
 ```bash
 ./201yams 0 0 0 0 0 yams_4
 chances to get a 4 yams:  0.01%
