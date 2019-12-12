@@ -1,0 +1,75 @@
+{
+  "customer": {
+    "host":"10.101.53.35"
+  },
+  "server": {
+    "current_time": 1531680780,
+    "services": [
+    {
+      "name": "weather",
+      "widgets": [{
+        "name": "city_temperature",
+        "description": "Displays temperature for a city",
+        "params": [{
+          "name": "city",
+          "type": "string"
+        }]
+      }]
+    },
+    {
+      "name": "pokemon",
+      "widgets": [{
+        "name": "pokemon_info",
+        "description": "Displays some basic Pokemon informations",
+        "params": [{
+          "name": "id | name",
+          "type": "string"
+        }]
+      },
+      {
+        "name": "pokemon_splashart",
+        "description": "Displays shiny artwork",
+        "params": [{
+          "name": "isShiny",
+          "type": "boolean"
+        }]
+      }]
+    },
+    {
+      "name": "stockExchange",
+      "widgets": [{
+        "name": "exchange_rate",
+        "description": "Displays current exchange rate between two currencies",
+        "params": [
+        {
+          "name": "currency1",
+          "type": "string"
+        },
+        {
+          "name": "currency2",
+          "type": "string"
+        },
+        {
+          "name": "value",
+          "type": "integer"
+        }]
+      }]
+    },
+    {
+      "name": "reddit",
+      "widgets": [{
+        "name": "reddit_posts",
+        "description": "Displays the 5 latests posts from a subreddit",
+        "params": [
+        {
+          "name": "subreddit_name",
+          "type": "string"
+        },
+        {
+          "name": "subreddit_filter",
+          "type": "string"
+        }]
+      }]
+    }]
+  }
+}
