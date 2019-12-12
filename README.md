@@ -15,7 +15,7 @@ It can be possible that some projects aren't working at 100% or not even finishe
 | [CPool](./C_Pool) | C | EPITECH C Pool <br> 6 weeks of intense programming to learn Unix/C basics. |
 | [C Projects]() | C | Collection of small C Projects
 | [CppPool](./CPP_Pool) | C++ | EPITECH Cpp Pool <br> 4 weeks of intense programming to learn Object-Oriented developement. |
-| [Dashboard]() | Vue | Dashboard 
+| [Dashboard](./Dashboard) | Vue | Dashboard 
 | [Epicture]() | React Native | Image Browsing Mobile application using Imgur API
 | [EvalExpr]() | Haskell | Functional EvalExpr
 | [Indie Studio]() | C++ | 3D Bomberman with Irrlicht Engine
