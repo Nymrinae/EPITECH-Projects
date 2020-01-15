@@ -16,7 +16,7 @@ It can be possible that some projects aren't working at 100% or not even finishe
 | [C_Projects](./C_Projects) | 1st/2nd | C | Collection of small C Projects
 | [CppPool](./CPP_Pool) | 2nd | C++ | EPITECH Cpp Pool <br> 4 weeks of intense programming to learn Object-Oriented developement. |
 | [Dashboard](./Dashboard) | 3rd | Vue | Dashboard 
-| [Epicture]() | 3rd | React Native | Image Browsing Mobile application using Imgur API
+| [Epicture](./Epicture) | 3rd | React Native | Image Browsing Mobile application using Imgur API
 | [EvalExpr]() | 3rd | Haskell | Functional EvalExpr
 | [Indie Studio]() | 2nd EYP | C++ | 3D Bomberman with Irrlicht Engine
 | [Mathematics](./Mathematics) | 2nd/3rd | Python | A collection of mathematics programs (statistics, algorithms...) |
