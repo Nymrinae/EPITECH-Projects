@@ -1,0 +1,11 @@
+Epicture/node_modules/**/*
+Epicture/.expo/*
+Epicture/npm-debug.*
+Epicture/*.jks
+Epicture/*.p8
+Epicture/*.p12
+Epicture/*.key
+Epicture/*.mobileprovision
+Epicture/*.orig.*
+Epicture/web-build/
+Epicture/web-report/

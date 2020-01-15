@@ -9,7 +9,7 @@ It can be possible that some projects aren't working at 100% or not even finishe
 
 | Project Folder                    | Year | Language | Description |
 | --------------------------------  | - | - | -------------- |
-| [AREA]() | 3rd EYP| Vue | |
+| [AREA]() | 3rd EYP| Python/Vue/RN | |
 | [Assembly](./ASM) | 2nd | ASM | Rewriting some standard C library functions in Assembly (NASM based) |
 | [Babel]() | 3rd | C++ | Build a S.I.P application (VOIP based) such as Skype
 | [CPool](./C_Pool) | 1st | C | EPITECH C Pool <br> 6 weeks of intense programming to learn Unix/C basics. |
