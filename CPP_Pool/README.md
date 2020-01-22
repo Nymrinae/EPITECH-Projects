@@ -1,4 +1,4 @@
-# C Pool
+# CPP Pool
 
 ## Table of Contents
 
