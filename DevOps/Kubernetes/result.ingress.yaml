@@ -1,0 +1,16 @@
+---
+apiVersion: networking.k8s.io/v1beta1
+kind: Ingress
+metadata:
+  name: result-ingress
+  annotations:
+    kubernetes.io/ingress.class: traefik
+spec:
+  rules:
+    - host: result.dop.io
+      http:
+        paths:
+          - path: /
+            backend:
+              serviceName: result-service
+              servicePort: http
