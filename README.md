@@ -9,7 +9,7 @@ It can be possible that some projects aren't working at 100% or not even finishe
 
 | Project Folder                    | Year | Language | Description |
 | --------------------------------  | - | - | -------------- |
-| [AREA]() | 3rd EYP| Python/Vue/RN | |
+| [AREA](./AREA) | 3rd EYP| Vue/RN/NodeJS/TS | Reactive Dashboard, platform such as IFTTT or Zapier |
 | [Assembly](./ASM) | 2nd | ASM | Rewriting some standard C library functions in Assembly (NASM based) |
 | [Babel]() | 3rd | C++ | Build a S.I.P application (VOIP based) such as Skype
 | [CPool](./C_Pool) | 1st | C | EPITECH C Pool <br> 6 weeks of intense programming to learn Unix/C basics. |
@@ -22,7 +22,7 @@ It can be possible that some projects aren't working at 100% or not even finishe
 | [Indie Studio]() | 2nd EYP | C++ | 3D Bomberman with Irrlicht Engine
 | [Mathematics](./Mathematics) | 2nd/3rd | Python | A collection of mathematics programs (statistics, algorithms...) |
 | [Professionnal Writings]() | 2nd/3rd | French | A collection of professionnal writings
-| [Plazza]() | 2nd | C++ | Threads and mutex handling through a Pizzeria system |
+| [Plazza](./Plazza) | 2nd | C++ | Threads and mutex handling through a Pizzeria system |
 
 NB: EYP means End-Year Project
 
