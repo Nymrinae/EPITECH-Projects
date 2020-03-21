@@ -1,0 +1,52 @@
+version: '3'
+
+services:
+  server:
+    build: ./server
+    container_name: my_server
+    ports:
+      - 8080:8080
+    networks:
+      - my_network
+    environment:
+      - ADDR=0.0.0.0
+      - PORT=8080
+    restart: on-failure
+  # client_mobile:
+  # build: ./mobile
+  #  container_name: my_mobile
+  #  ports:
+  #    - 19000:19000
+  #    - 19001:19001
+  #    - 19002:19002
+  #  environment:
+  #    - EXPO_DEVTOOLS_LISTEN_ADDRESS=0.0.0.0
+  #  volumes:
+  #      - area-volume:/var/lib/area-volume
+  #  restart: on-failure
+  client_web:
+    build:
+      context: .
+      dockerfile: ./client/Dockerfile
+    container_name: my_client
+    depends_on:
+      - server
+      #- client_mobile
+    ports:
+      - 8081:8081
+    environment:
+      - NUXT_HOST=0.0.0.0
+      - NUXT_PORT=8081
+      - SERV_ADDR=localhost
+      - SERV_PORT=8080
+    networks:
+      - my_network
+    volumes:
+      - area-volume:/var/lib/area-volume
+    restart: on-failure
+
+networks:
+  my_network:
+
+volumes:
+  area-volume:
