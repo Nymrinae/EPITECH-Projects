@@ -17,10 +17,10 @@
 | [301dannon](./301dannon)          | Compare sorting algorithms in terms of number of operations     |
 | [302separation](./302separation)  | Calculate shortest paths (Floyd-Warshall algorithm) |
 | [303make](./303make)              | Displays an adjacency matrix of a Makefile |
-| [304pacman]()                     | Determining the shortest paths on a road map (Djisktra algorithm)
-| [305construction]()               | Calculate the maximum duration of a project with scheduling constraints |
-| [306radiator]()                   | Solve a linear equation system |
-| [307multigrains]()                | Solve a linear equation system using Simplex Method|
-| [308reedpipes]()                  | Create and visualize cubic splines interpolation |
-| [309pollution]()                  | Represent graphically a B-spline curve |
+| [304pacman](./304pacman)                     | Determining the shortest paths on a road map (Djisktra algorithm)
+| [305construction](./305construction)               | Calculate the maximum duration of a project with scheduling constraints |
+| [306radiator](./306radiator)                   | Solve a linear equation system |
+| [307multigrains](./307multigrains)                | Solve a linear equation system using Simplex Method|
+| [308reedpipes](./308reedpipes)                  | Create and visualize cubic splines interpolation |
+| [309pollution](./309pollution)                  | Represent graphically a B-spline curve |
 
