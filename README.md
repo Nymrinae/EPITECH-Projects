@@ -43,7 +43,7 @@ It can be possible that some projects aren't working at 100% or not even finishe
 | [Dashboard](./Dashboard) | Vue | Dashboard
 | [DevOps](./DevOps) | YAML | Docker, Ansible, Kubernetes
 | [Epicture](./Epicture) | React Native | Image Browsing Mobile application using Imgur API
-| [EvalExpr]() | Haskell | Functional EvalExpr
+| [EvalExpr](./EvalExpr) | Haskell | Functional EvalExpr
 | [Mathematics](./Mathematics/300) | Python | A collection of mathematics programs (statistics, algorithms...) |
 <br>
 
