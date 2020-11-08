@@ -1,0 +1,9 @@
+HTTP         = Header "n" Body ;
+Header       = CMD " " URI " " Version "n" { HeaderList } ;
+CMD          = GET / POST
+URI          = [a-zA-Z].html
+Version      = HTTP/[0-1].[0-1]
+HeaderList   = ???
+HeaderName   = ???
+Data         = ???
+Body         = ???
