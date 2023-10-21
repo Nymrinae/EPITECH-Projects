@@ -63,9 +63,9 @@ It can be possible that some projects aren't working at 100% or not even finishe
 ## Msc Pro Second Year
 | Project Folder                    | Language | Description |
 | --------------------------------  | - | -------------- |
-| [Recommender](https://github.com/Nymrinae) | VueJS, Python | Recommend items to customers |
+| [Recommender](./Recommender) | VueJS, Python | Recommend items to customers |
 | [TravelOrderResolver](https://github.com/Nymrinae) | Python | Find the quickest itinary between two places using NLP |
-| [Nostradamovies](https://github.com/Nymrinae) | VueJS, Python | Analyse a movie poster to predict its genre |
+| [Nostradamovies](./Nostradamovies) | VueJS, Python | Analyse a movie poster to predict its genre |
 | [Sensor sensei](https://github.com/Nymrinae) | CPP, VueJS | Real-time monitoring dashboard displaying environnemental sensors data |
 
 
