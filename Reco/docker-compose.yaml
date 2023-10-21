@@ -1,0 +1,32 @@
+version: '3.9'
+
+services:
+  # db:
+  #   image: postgres:14.1
+  #   restart: always
+  #   environment:
+  #     POSTGRES_DB: ${DB_NAME}
+  #     POSTGRES_USER: ${DB_USER}
+  #     POSTGRES_PASSWORD: ${DB_PASSWORD}
+  #   volumes:
+  #     - ./data/db:/var/lib/postgresql/data
+  #   ports:
+  #     - "8001:5432"
+  back:
+    build:
+      context: ./back
+    command: python manage.py runserver 0.0.0.0:8000
+    restart: always
+    ports:
+      - "8000:8000"
+    environment:
+      - DB_HOST=${DB_HOST}
+      - DB_NAME=${DB_NAME}
+      - DB_USER=${DB_USER}
+      - DB_PASSWORD=${DB_PASSWORD}
+      - SECRET_KEY=${SECRET_KEY}
+    volumes:
+      - ./back:/code
+      - /code/venv/
+    # depends_on:
+    #   - db

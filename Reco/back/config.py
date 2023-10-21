@@ -1,0 +1,5 @@
+DATASET_HDF5_PATH = 'data/processed/KaDo.h5'
+CLIENT_DATASET_HDF5_PATH = 'data/processed/ClientSummary.h5'
+TICKET_DATASET_HDF5_PATH = 'data/processed/TicketSummary.h5'
+PCA_MODEL_PATH = 'models/pca.pkl'
+CLUSTER_MODEL_PATH = 'models/cluster_kmeans.pkl'

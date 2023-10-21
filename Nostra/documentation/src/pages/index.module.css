@@ -1,0 +1,31 @@
+/**
+ * CSS files with the .module.css suffix will be treated as CSS modules
+ * and scoped locally.
+ */
+
+.homePage {
+  display: flex;
+  width: 100%;
+}
+
+.homePage > div {
+  align-items: center;
+  display: flex;
+  flex: 1;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.homePage > div:last-child {
+  background-color: var(--ifm-color-gray-lighter);
+}
+
+.homePageContent {
+  padding: 3em;
+}
+
+.homePageVisual {
+  height: 670px;
+  object-fit: contain;
+  width: 670px;
+}

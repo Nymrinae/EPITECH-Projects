@@ -1,0 +1,41 @@
+@import './core.scss';
+
+.main-page {
+  margin: 0 15%;
+  @extend .text-justify;
+}
+
+.main-title {
+  @extend .text-primary;
+  @extend .mb-1;
+}
+
+.section-title {
+  @extend .text-primary;
+  @extend .font-weight-bolder;
+  @extend .my-1;
+}
+
+.section-text {
+  @extend .ml-2;
+}
+
+.section-text-title {
+  @extend .mt-1;
+}
+
+.section-text-content {
+  @extend .ml-2;
+}
+
+.logo {
+  @extend .text-center;
+  @extend .text-xl-left;
+  @extend .px-5;
+}
+
+.previous-page-link {
+  @extend .text-primary;
+  @extend .mb-3;
+  @extend .cursor-pointer;
+}
